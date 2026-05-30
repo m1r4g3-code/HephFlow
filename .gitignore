@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+
+# Virtual environment
+.venv/
+venv/
+
+# PyInstaller build artifacts
+build/
+dist/
+*.manifest
+
+# Local dependency wheelhouse (machine-specific, large)
+wheels/
+
+# Throwaway install/download helpers (IPv6 workarounds for this machine)
+_pip_ipv4.py
+_dl_model.py
+
+# Runtime files
+pressflow.log
+pressflow.log.*
+config.json
+
+# OS / editor
+Thumbs.db
+.DS_Store
+.vscode/
+.idea/
